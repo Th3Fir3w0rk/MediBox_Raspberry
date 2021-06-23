@@ -47,7 +47,7 @@ y_labels=np.array(y_labels)
 recognizer= cv2.face.createLBPHFaceRecognizer()
 recognizer.train(x_train, y_labels)
 recognizer.save("trainner.yml")
-os.system("sudo python main5.0.py")
+os.system("sudo python face_recognition.py")
         
 
         
