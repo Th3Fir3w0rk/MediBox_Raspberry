@@ -87,7 +87,7 @@ while True:
     if button.is_pressed:
         cap.release() 
         cv2.destroyAllWindows()
-        os.system('sudo python main3.0.py')
+        os.system('sudo python face_recording.py')
         
     key=cv2.waitKey(1)
     if key==ord("x"):
