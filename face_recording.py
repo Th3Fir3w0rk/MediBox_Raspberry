@@ -90,7 +90,7 @@ while True:
     if QUIT == True:
         cv2.destroyAllWindows()
         cap.release()
-        os.system('sudo python main4.0.py') 
+        os.system('sudo python binary_generation.py') 
     cv2.imshow("video", frame)
     for jump in range(4):
         ret, frame=cap.read()
